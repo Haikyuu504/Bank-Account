@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(36, 63, 125);
+}
+.title {
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 70px;
+}
+.balance-number {
+  font-family: sans-serif;
+  font-size: 40px;
+  margin-left: 20px;
+}
+.enter-amount {
+  padding: 20px;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 20px 10px 10px black;
+  width: 300px;
+}
+button {
+  padding: 10px;
+}
+.withdraw {
+  margin-left: 170px;
+  margin-top: 40px;
+  border: none;
+  border-color: green;
+  background-color: lightgreen;
+  padding: 15px;
+}
+.deposit {
+  margin-left: 315px;
+  border: none;
+  border-color: green;
+  background-color: lightgreen;
+  padding: 15px;
+}
+@media screen and (max-width:900px)
+{
+  body {
+  background-color: rgb(36, 63, 125);;
+}
+.title {
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+}
+.balance-number {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.enter-amount {
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 20px 10px 10px black;
+  width: 200px;
+}
+button {
+  padding: 10px;
+}
+.withdraw {
+  margin-left: 60px;
+  margin-top: 40px;
+  border: none;
+  border-color: green;
+  background-color: lightgreen;
+}
+.deposit {
+  margin-left: 260px;
+  border: none;
+  border-color: green;
+  background-color: lightgreen;
+}
+}
+@media screen and (max-width:600px)
+{
+    body {
+  background-color: rgb(36, 63, 125);
+}
+.title {
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+}
+.balance-number {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.enter-amount {
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 20px 10px 10px black;
+  width: 200px;
+}
+button {
+  padding: 10px;
+}
+.withdraw {
+  margin-left: 54px;
+  margin-top: 40px;
+  border: none;
+  border-color: green;
+  background-color: lightgreen;
+  padding: 10px;
+}
+.deposit {
+  margin-left: 74px;
+  border: none;
+  border-color: green;
+  background-color: lightgreen;
+  padding: 10px;
+}
+}
